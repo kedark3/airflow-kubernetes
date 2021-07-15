@@ -20,8 +20,8 @@
             "workload": "kube-burner",
             "command": "./run_clusterdensity_test_fromgit.sh",
             "env": {
-                "JOB_ITERATIONS": "2000",
-                "JOB_TIMEOUT": "36000",
+                "JOB_ITERATIONS": "4000",
+                "JOB_TIMEOUT": "72000",
                 "STEP_SIZE": "30s",
                 "QPS": "5",
                 "BURST": "5",
