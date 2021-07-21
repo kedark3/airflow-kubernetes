@@ -28,5 +28,5 @@
     "openshift_prometheus_storage_size": "500Gi",
     "openshift_alertmanager_storage_class": "gp2",
     "openshift_alertmanager_storage_size": "20Gi",
-    "openshift_base_domain": "perfscale.devcluster.openshift.com"
+    "openshift_base_domain": "qe-lrc.devcluster.openshift.com"
  }
