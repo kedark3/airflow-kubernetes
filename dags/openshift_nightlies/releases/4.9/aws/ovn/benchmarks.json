@@ -6,21 +6,21 @@
             "command": "./baseline_perf.sh"
         },
         {
-            "name": "scale_250",
+            "name": "scale_120",
             "workload": "scale-perf",
             "command": "./run_scale_fromgit.sh",
             "env": {
-                "SCALE": "250",
+                "SCALE": "120",
                 "METADATA_COLLECTION": "true",
                 "WORKLOAD_NODE_ROLE": "workload"
             }
         },
         {
-            "name": "cluster_density_250",
+            "name": "cluster_density_120",
             "workload": "kube-burner",
             "command": "./run_clusterdensity_test_fromgit.sh",
             "env": {
-                "JOB_ITERATIONS": "2000",
+                "JOB_ITERATIONS": "1000",
                 "JOB_TIMEOUT": "18000",
                 "STEP_SIZE": "30s",
                 "QPS": "20",
