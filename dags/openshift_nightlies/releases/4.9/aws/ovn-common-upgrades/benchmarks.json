@@ -1,0 +1,35 @@
+{
+    "benchmarks": [
+        {
+            "name": "baseline",
+            "workload": "baseline-performance",
+            "command": "./baseline_perf.sh"            
+        },
+        {
+            "name": "cluster_density",
+            "workload": "kube-burner",
+            "command": "./run_clusterdensity_test_fromgit.sh",
+            "env": {
+                "JOB_ITERATIONS": "500",
+                "JOB_TIMEOUT": "18000",
+                "STEP_SIZE": "30s",
+                "QPS": "5",
+                "BURST": "5",
+                "METRICS_PROFILE": "metrics-aggregated.yaml",
+                "LOG_LEVEL": "info",
+                "LOG_STREAMING": "true",
+                "CLEANUP_WHEN_FINISH": "false",
+                "CLEANUP": "false"
+            }
+        },
+        {
+            "name": "upgrades",
+            "workload": "upgrade-perf",
+            "command": "./run_upgrade_fromgit.sh",
+            "env": {
+                "LATEST": "true",
+                "CHANNEL": "nightlies"
+            }
+        }
+    ]
+}
