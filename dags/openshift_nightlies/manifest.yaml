@@ -8,6 +8,7 @@ versionAliases:
 
 dagConfig:
   schedules:
+<<<<<<< HEAD
     enabled: false
     default: "0 12 * * 1,3,5"
     openstack: "0 12 * * 1-6"
@@ -16,6 +17,12 @@ dagConfig:
     repository: quay.io/cloud-bulldozer
     tag: 2.1.3
 
+=======
+    enabled: true
+    default: "0 12 * * 1,3,5"
+    openstack: "0 12 * * 1-6"
+  cleanupOnSuccess: true
+>>>>>>> 18706cd (fixing manifest schedule)
 
 platforms:
   cloud:
