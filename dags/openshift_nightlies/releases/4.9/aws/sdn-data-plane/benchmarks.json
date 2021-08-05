@@ -9,7 +9,7 @@
                 "GOLD_OCP_VERSION": "4.7",
                 "GOLD_SDN": "openshiftsdn",
                 "COMPARE_WITH_GOLD": "true",
-                "EMAIL_ID_FOR_RESULTS_SHEET": "msheth@redhat.com",
+                "EMAIL_ID_FOR_RESULTS_SHEET": "kkulkarni@redhat.com",
                 "GSHEET_KEY_LOCATION": "/tmp/key.json"
             }
         },
@@ -22,7 +22,7 @@
                 "GOLD_OCP_VERSION": "4.7",
                 "GOLD_SDN": "openshiftsdn",
                 "COMPARE_WITH_GOLD": "true",
-                "EMAIL_ID_FOR_RESULTS_SHEET": "msheth@redhat.com",
+                "EMAIL_ID_FOR_RESULTS_SHEET": "kkulkarni@redhat.com",
                 "GSHEET_KEY_LOCATION": "/tmp/key.json"
             }
         },
@@ -35,7 +35,7 @@
                 "GOLD_OCP_VERSION": "4.7",
                 "GOLD_SDN": "openshiftsdn",
                 "COMPARE_WITH_GOLD": "true",
-                "EMAIL_ID_FOR_RESULTS_SHEET": "msheth@redhat.com",
+                "EMAIL_ID_FOR_RESULTS_SHEET": "kkulkarni@redhat.com",
                 "GSHEET_KEY_LOCATION": "/tmp/key.json"
             }
         }

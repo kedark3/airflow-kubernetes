@@ -36,8 +36,8 @@ platforms:
         - ovn-common-target
         - sdn-med-target
         - ovn-med-target
-      #   - sdn-data-plane
-      #   - ovn-data-plane
+        - sdn-data-plane
+        - ovn-data-plane
       # - name: gcp
       #   profiles:
       #   - sdn-common-target
