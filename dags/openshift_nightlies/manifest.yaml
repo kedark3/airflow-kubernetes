@@ -24,6 +24,7 @@ platforms:
       providers:
       - name: aws
         profiles:
+        - adhoc-dag
         - sdn-common-target
         - ovn-common-target
         - sdn-med-target
