@@ -4,6 +4,7 @@ from openshift_nightlies.util import constants, executor
 from openshift_nightlies.models.release import OpenshiftRelease
 
 import requests
+from urllib.parse import urlparse
 from airflow.models import Variable
 from kubernetes.client import models as k8s
 
