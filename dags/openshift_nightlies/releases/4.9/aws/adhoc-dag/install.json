@@ -33,5 +33,5 @@
     "openshift_toggle_workload_node": "true",
     "openshift_toggle_ovn_patch": "true",
     "openshift_base_domain": "qe-lrc.devcluster.openshift.com",
-    "openshift_ovn_image": "quay.io/kkulkarn/ovn-kubernetes:metrics"
+    "commented_openshift_ovn_image": "quay.io/kkulkarn/ovn-kubernetes:metrics"
 }
