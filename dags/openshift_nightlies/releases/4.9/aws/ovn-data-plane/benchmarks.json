@@ -7,7 +7,7 @@
             "env": {
                 "COMPARE": "true",
                 "COMPARE_WITH_GOLD": "false",
-                "BASELINE_CLOUD_NAME": "aws",
+                "BASELINE_CLOUD_NAME": "aws_sdn",
                 "BASELINE_HOSTNET_UUID": "1057b072-ae18-5584-9937-bfec75f407e2",
                 "EMAIL_ID_FOR_RESULTS_SHEET": "kkulkarni@redhat.com",
                 "GSHEET_KEY_LOCATION": "/tmp/key.json"
@@ -20,7 +20,7 @@
             "env": {
                 "COMPARE": "true",
                 "COMPARE_WITH_GOLD": "false",
-                "BASELINE_CLOUD_NAME": "aws",
+                "BASELINE_CLOUD_NAME": "aws_sdn",
                 "BASELINE_POD_1P_UUID": "369f2f60-4b31-5565-bb6f-efa6b2ae974c",
                 "BASELINE_POD_2P_UUID": "4ea12cac-2b55-5c1f-8001-84eed0e33d67",
                 "BASELINE_POD_4P_UUID": "623d3e37-4e9a-54c5-87de-b8d4929146d2",
@@ -35,7 +35,7 @@
             "env": {
                 "COMPARE": "true",
                 "COMPARE_WITH_GOLD": "false",
-                "BASELINE_CLOUD_NAME": "aws",
+                "BASELINE_CLOUD_NAME": "aws_sdn",
                 "BASELINE_SVC_1P_UUID": "b4c9fbb6-7898-5ecd-8f9c-d07fb4035fa6",
                 "BASELINE_SVC_2P_UUID": "d9cf5816-c557-5ece-a116-0d8286f1fe13",
                 "BASELINE_SVC_4P_UUID": "1ad193a9-9637-583c-babd-8c0203144638",

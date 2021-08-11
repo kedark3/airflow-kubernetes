@@ -20,10 +20,8 @@
             "workload": "network-perf",
             "command": "./run_serviceip_network_test_fromgit.sh test_cloud",
             "env": {
-                "COMPARE": "true",
-                "GOLD_OCP_VERSION": "4.8",
-                "GOLD_SDN": "openshiftsdn",
-                "COMPARE_WITH_GOLD": "true",
+                "COMPARE": "false",
+                "COMPARE_WITH_GOLD": "false",
                 "EMAIL_ID_FOR_RESULTS_SHEET": "kkulkarni@redhat.com",
                 "GSHEET_KEY_LOCATION": "/tmp/key.json"
             }
