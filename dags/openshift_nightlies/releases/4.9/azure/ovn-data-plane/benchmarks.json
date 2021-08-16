@@ -8,7 +8,7 @@
                 "COMPARE": "true",
                 "COMPARE_WITH_GOLD": "false",
                 "BASELINE_CLOUD_NAME": "azure_sdn",
-                "BASELINE_HOSTNET_UUID": "",
+                "BASELINE_HOSTNET_UUID": "ffe22b00-f08e-5eb8-8208-1c5043f59923",
                 "EMAIL_ID_FOR_RESULTS_SHEET": "kkulkarni@redhat.com",
                 "GSHEET_KEY_LOCATION": "/tmp/key.json"
             }
@@ -21,9 +21,9 @@
                 "COMPARE": "true",
                 "COMPARE_WITH_GOLD": "false",
                 "BASELINE_CLOUD_NAME": "azure_sdn",
-                "BASELINE_POD_1P_UUID": "",
-                "BASELINE_POD_2P_UUID": "",
-                "BASELINE_POD_4P_UUID": "",
+                "BASELINE_POD_1P_UUID": "6de95eb3-02a0-5b29-b1f7-681e940fd884",
+                "BASELINE_POD_2P_UUID": "880a19a5-2543-502c-9ac6-3155d0ce56f2",
+                "BASELINE_POD_4P_UUID": "6940aecb-a2b7-5c4d-9745-2f1499b9246f",
                 "EMAIL_ID_FOR_RESULTS_SHEET": "kkulkarni@redhat.com",
                 "GSHEET_KEY_LOCATION": "/tmp/key.json"
             }
@@ -36,9 +36,9 @@
                 "COMPARE": "true",
                 "COMPARE_WITH_GOLD": "false",
                 "BASELINE_CLOUD_NAME": "azure_sdn",
-                "BASELINE_SVC_1P_UUID": "",
-                "BASELINE_SVC_2P_UUID": "",
-                "BASELINE_SVC_4P_UUID": "",
+                "BASELINE_SVC_1P_UUID": "596da7b2-7877-51f9-960a-c2f7ad3f86b9",
+                "BASELINE_SVC_2P_UUID": "9b26ca29-f856-5912-848c-e68a43b5c802",
+                "BASELINE_SVC_4P_UUID": "5e8214c4-1132-5e77-be61-b30bb9bf707e",
                 "EMAIL_ID_FOR_RESULTS_SHEET": "kkulkarni@redhat.com",
                 "GSHEET_KEY_LOCATION": "/tmp/key.json"
             }
