@@ -19,6 +19,12 @@ dagConfig:
 
 platforms:
   cloud:
+    - version: 4.8
+      releaseStream: 4.8.0-0.nightly
+      providers:
+      - name: aws
+        profiles:
+        - adhoc-dag
     - version: 4.9
       releaseStream: 4.9.0-0.nightly
       providers:
