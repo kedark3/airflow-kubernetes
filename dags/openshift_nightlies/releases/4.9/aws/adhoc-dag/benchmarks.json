@@ -6,24 +6,30 @@
             "command": "./baseline_perf.sh"
         },
         {
-            "name": "scale_100",
+            "name": "scale_50",
             "workload": "scale-perf",
             "command": "./run_scale_fromgit.sh",
             "env": {
-                "SCALE": "100",
+                "SCALE": "50",
                 "METADATA_COLLECTION": "true",
                 "WORKLOAD_NODE_ROLE": "workload"
             }
         },
         {
-            "name": "serviceip_network",
-            "workload": "network-perf",
-            "command": "./run_serviceip_network_test_fromgit.sh test_cloud",
+            "name": "cluster_density_iteration_50_nodes",
+            "workload": "kube-burner",
+            "command": "./run_clusterdensity_test_fromgit.sh",
             "env": {
-                "COMPARE": "false",
-                "COMPARE_WITH_GOLD": "false",
-                "EMAIL_ID_FOR_RESULTS_SHEET": "kkulkarni@redhat.com",
-                "GSHEET_KEY_LOCATION": "/tmp/key.json"
+                "JOB_ITERATIONS": "1000",
+                "JOB_TIMEOUT": "18000",
+                "STEP_SIZE": "30s",
+                "QPS": "20",
+                "BURST": "20",
+                "METRICS_PROFILE": "metrics-aggregated.yaml",
+                "LOG_LEVEL": "info",
+                "LOG_STREAMING": "true",
+                "CLEANUP_WHEN_FINISH": "true",
+                "CLEANUP": "true"
             }
         }
     ]
