@@ -2,7 +2,7 @@
     "aws_profile": "",
     "aws_access_key_id": "",
     "aws_secret_access_key": "",
-    "workload_aws_az_suffix":"c",
+    "commented_workload_aws_az_suffix":"c",
     "openshift_master_count": 3,
     "openshift_worker_count": 20,
     "openshift_host_prefix": "22",
@@ -32,6 +32,6 @@
     "openshift_toggle_infra_node": "true",
     "openshift_toggle_workload_node": "true",
     "openshift_toggle_ovn_patch": "true",
-    "openshift_base_domain": "qe-lrc.devcluster.openshift.com",
+    "commented_openshift_base_domain": "qe-lrc.devcluster.openshift.com",
     "commented_openshift_ovn_image": "quay.io/kkulkarn/ovn-kubernetes:metrics"
 }
