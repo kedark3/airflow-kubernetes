@@ -9,7 +9,7 @@
                 "COMPARE_WITH_GOLD": "false",
                 "BASELINE_CLOUD_NAME": "gcp_sdn_hostnet",
                 "BASELINE_HOSTNET_UUID": "a57acc03-8526-5a42-8b66-0c40f3c1807d",
-                "EMAIL_ID_FOR_RESULTS_SHEET": "kkulkarni@redhat.com",
+                "EMAIL_ID_FOR_RESULTS_SHEET": "mifiedle@redhat.com",
                 "GSHEET_KEY_LOCATION": "/tmp/key.json"
             }
         },
@@ -24,7 +24,7 @@
                 "BASELINE_POD_1P_UUID": "e1507d90-bac8-5cfa-828a-3a38d13ee733",
                 "BASELINE_POD_2P_UUID": "65914614-70b3-5c5f-9937-2fa8755c39ac",
                 "BASELINE_POD_4P_UUID": "adc9c459-78ae-5411-9941-ff77a862ee3a",
-                "EMAIL_ID_FOR_RESULTS_SHEET": "kkulkarni@redhat.com",
+                "EMAIL_ID_FOR_RESULTS_SHEET": "mifiedle@redhat.com",
                 "GSHEET_KEY_LOCATION": "/tmp/key.json"
             }
         },
@@ -39,7 +39,7 @@
                 "BASELINE_SVC_1P_UUID": "33d10fe9-0ca5-57e0-99c9-9c4389ab3a11",
                 "BASELINE_SVC_2P_UUID": "d0d29333-f23f-5215-9a0d-8f0c139a9fbc",
                 "BASELINE_SVC_4P_UUID": "71d04ec7-3b76-50f0-bd53-8b771b78fb03",
-                "EMAIL_ID_FOR_RESULTS_SHEET": "kkulkarni@redhat.com",
+                "EMAIL_ID_FOR_RESULTS_SHEET": "mifiedle@redhat.com",
                 "GSHEET_KEY_LOCATION": "/tmp/key.json"
             }
         }

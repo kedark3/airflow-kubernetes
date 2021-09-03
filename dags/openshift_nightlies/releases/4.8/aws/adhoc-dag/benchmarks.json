@@ -22,7 +22,7 @@
             "env": {
                 "COMPARE": "false",
                 "COMPARE_WITH_GOLD": "false",
-                "EMAIL_ID_FOR_RESULTS_SHEET": "kkulkarni@redhat.com",
+                "EMAIL_ID_FOR_RESULTS_SHEET": "mifiedle@redhat.com",
                 "GSHEET_KEY_LOCATION": "/tmp/key.json"
             }
         }
