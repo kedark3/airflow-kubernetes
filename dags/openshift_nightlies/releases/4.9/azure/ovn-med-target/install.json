@@ -1,6 +1,7 @@
 {
     "openshift_master_count": 3,
     "openshift_worker_count": 120,
+    "azure_cluster_expiry": 1,
     "openshift_base_domain": "qe.azure.devcluster.openshift.com",
     "openshift_host_prefix": "23",
     "openshift_network_type": "OVNKubernetes",
